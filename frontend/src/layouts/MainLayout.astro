@@ -1,0 +1,69 @@
+---
+import GlobalNav from "../components/GlobalNav.astro";
+import Footer from "../components/Footer.astro";
+import "../styles/global.css";
+
+---
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<!-- Sans Font -->
+		<link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,300;0,400;0,600;0,700;0,900;1,100;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+		<!-- Serif Font  -->
+		<link href="https://fonts.googleapis.com/css2?family=Rokkitt:wght@100;300;400;600;700;900&display=swap" rel="stylesheet">
+		<!-- Mono Font -->
+		<link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+
+		<slot name="title"/> 
+	</head>
+	<body>
+        <GlobalNav />
+		<div class="container mx-auto">
+				<div id="leaderboard" class="w-full block px-2 my-4">
+					<slot name="leaderboard" />
+				</div>
+				<div class="grid grid-cols-1 gap-6 lg:grid-cols-3">
+					<div id="centerwell" class="col-span-2 flex px-4">
+						<slot name="centerwell" />
+					</div>
+					<div id="rightrail" class="col-span-1 bg-white max-h-96">
+						<slot name="rightrail" />
+					</div>
+				</div>
+		</div>	
+	<Footer />
+	</body>
+</html>
+
+<style>
+	@font-face {
+        font-family: "Prompt";
+        font-style: normal;
+        font-weight: normal;
+		src: url('/fonts/Prompt/Prompt-Black.ttf');
+    },
+	@font-face {
+        font-family: "Courier_Prime";
+        font-style: normal;
+        font-weight: normal;
+		src: url('/fonts/Courier_Prime/Courier_Prime-Regular.ttf');
+    },
+    @font-face {
+        font-family: "Rokkitt",serif;
+		font-style: normal;
+		font-weight: normal;
+		src: url('/fonts/Rokkitt/static/Rokkitt-Regular.ttf');
+    },
+	@font-face {
+        font-family: "Anonymous Pro", monospace;
+        font-style: normal;
+        font-weight: normal;
+        src: url('/fonts/Anonymous_Pro/Anonymous_Pro-Regular.ttf');
+    }
+</style>

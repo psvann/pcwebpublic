@@ -1,0 +1,33 @@
+---
+title: "About Me"
+description: "Creative tech exec passionate about the development of advanced technology. Crafts teams to rally around the hardest problems and generate lasting impact. Champion of healthy cultures, a growth mindset, and the creative process."
+author: "Pieter van Noordennen" 
+date: "2022-09-12" 
+---
+### A Short(ish) History of My Career 
+
+1. Fell in love with reading and writing in my pre-teen years having discovered Hemingway, _On The Road_, and Dylan Thomas while loitering around my local library. Started writing stories and poetry myself. At 16, I got my first job at a local community-written newspaper designing ads and laying out pages. 
+
+2. My father said "Do what you love, but get paid for it" so I followed Hemingway's path into journalism as an undergrad. Writing and reporting didn't take immediately — it was such hard work! — but I did work-study at GW's school newspaper, _The Hatchet_, in a production role and relished the late-night camraderie and creativity that goes into shipping an edition twice weekly. 
+
+3. After graduating, I got a reporting job at a local newspaper, was forced to get comfortable interviewing strangers, and wrote 10-12 articles a week. But I wanted to see more of the world. On a whim, I applied to _Outside_ Magazine's internship program, was accepted, and packed my beat-up SUV for Santa Fe, New Mexico. That internship led to my first magazine job at _Skiing_ Magazine (R.I.P.) in Boulder, Colorado. 
+
+4. A number of tumultous years followed. During the 2008 crash, Time Media sold our magazine group and I was downsized by the new owners. I started freelance writing for a number national publications, with an increasing amount of work coming from business publications like _Entrepreneur_, _Money_, and _Forbes_. I loved writing, but my heart wasn't in it as a career any more and I needed a change. 
+
+5. My first product management job came from one of my writing clients, Away.com, which was owned by Orbitz Worldwide. There, I learned how to work with software engineers, UI designers, and content-based CMS systems to produce travel content. Again, there were late production nights and creative strategy discussions, and for the first time I was introduced to data analytics, rudimentary machine learning, and Agile development processes. I loved it. 
+
+6. I realized that the Internet would enable content at scale in a way that editorial production never could. While hand-crafted stories with multiple editors and deep budgets for quality reporting would always lead to top-tier journalism, the pace of the Internet would demand more for successful media businesses to compete. I took a leadership role at a travel and outdoor book publisher (Globe Pequot Press, later acquired by Roman & Littlefield) to build digital business models on top of their treasure troves high-quality but as-of-yet undigitized content libraries. It felt like I was mining for gold in the Yukon in 1840. 
+
+7. While we had some successes, the experience showed me that I had a lot to learn about business, leadership, and technology. I applied for and was accepted into the MIT Sloan Executive MBA program. This was a pivotal moment for me, as I learned from and became friends with some of the top business leaders in the world, many of whom I still call friends and get advice from regularly. 
+
+8. MIT Sloan showed me that my effforts at digital innovation in publishing were likely futile. While I worked with a lot of amazingly smart people in publishing, they were "book people", not "tech people" (with a few very notable exceptions). I wanted to go back to working with people who woke up every morning thinking about how software is changing our lives for the better. 
+
+9. After pounding on many doors, I landed a role in the MBA Rotational Program at TripAdvisor. I was easily the oldest person in the program and had given up a Director role at a small company for a near-entry-level "Product Manager" title at a large one, but none of that mattered. TripAdvisor had a reputation for honing great PMs, and indeed I got to learn from and work with some of the best product people in the business (Ravi Mehta, Adam Medros, Jenn Puskarich, Gerard Murphy) and worked side-by-side with some amazing engineers and data scientists. I took to A/B testing, data analytics, and engineering for scale quickly.  
+
+10. I've always been self taught — in publishing, I learned web development so I could help us build products faster; while at Sloan, I did my data modelling in Python rather than the provided Excel tools. Those skills earned me credibility with the engineering staff at TripAdvisor, and I was able to work on several special machine learning projects with some really smart people. We built models that deduced the sentiment of reviews, predicted hotel prices in the future, and personalized recommendations based on scarce data.  
+
+11. As much as I loved my work and the people at TripAdvisor, my career there began to stagnate. My longtime friend and entrepreneur John Amaral had a startup in stealth mode and asked if I'd be interested in joining. They already had a great Head of Product in place, but needed someone to grow their user base, create content, and co-author a PLG startegy for developers. I've always been too shy for marketing, but was taking Growth classes at Reforge and saw an opportunity to build a stellar Growth team while experimenting with all the new B2B PLG frameworks I'd been learning from great minds like Elena Verna, Brian Balfour, and Adam Grenier. I joined Slim.AI as Senior Director of Growth. 
+
+12. Startup life ain't easy, but I'm a builder at heart, and there was a lot to build at Slim. It took some time, but our mission and vision resonated with developers and we began to gain traction. Our tools were becoming widely used and solving difficult problems in an incredibly fast growing space. Joining the Cloud Native revolution and learning the emergent software supply chain security space brought me back to my techy roots, and working on content, growth product, and innovation capitalized on my capabilities. We went from Seed to a $31M Series A in just a year, and were named one of 2022's Top 10 Hottest DevOps startups by CRN. 
+
+13. We're still growing at Slim, and I've begun to work on partnerships, analyst relations, and several other aspects of the business. This blog is an effort to "build in public" and share what I learn as I grow. I hope you find it valuable! 
