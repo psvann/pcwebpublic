@@ -1,0 +1,22 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import ArticleListAstro from '../components/ArticleListAstro.astro';
+import FindMe from '../components/FindMe.astro'
+---
+<MainLayout>
+	<title slot="title">Product.Codes | Product, Growth, Tech Content from Pieter van Noordennen</title>
+	<div class="w-full" slot="leaderboard">
+		<h1 class="text-3xl text-white font-bold my-8">👋 Hi and Welcome!</h1>
+	</div>
+	
+	<div slot="centerwell">		
+		<h2 class="text-2xl font-bold">Posts</h2>
+		<ArticleListAstro />
+	</div>
+	<div slot="rightrail">
+		<FindMe /> 
+	</div>
+</MainLayout>
+
+<style>
+</style>

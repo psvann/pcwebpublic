@@ -1,0 +1,121 @@
+---
+const { frontmatter } = Astro.props;
+import GlobalNav from "../components/GlobalNav.astro"
+import Footer from "../components/Footer.astro"
+---
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+	</head>
+    <!-- Add other Head elements here, like styles and meta tags. -->
+    
+  <body>
+	<GlobalNav /> 
+	<div class="container mx-auto w-full">
+    	<article class="pr-8 md:pr-16 lg:pr-48">
+			<h1>{frontmatter.title}</h1>
+			<p id="byline" class="my-4 text-lg"><span class="italic">{frontmatter.author}</span> | {new Date(frontmatter.date).toLocaleDateString('en-us', { weekday:"long", year:"numeric", month:"short", day:"numeric"}) } </p>
+			<hr class="">
+			<slot />
+		</article>
+	</div>
+	<Footer /> 
+  </body>
+</html>
+
+<style>		
+	html,
+	body {
+			font-family: 'Prompt', sans-serif;
+			background-color: #1F3333;
+			color: #ECEBF3;
+			}
+
+	article { 
+		@apply bg-white;
+		color: #101919;
+		@apply px-9;
+		@apply py-6;
+		border-radius: 16px;
+		@apply my-9 mx-6;
+	}
+	
+	/* all body text elements */
+	article :global(p) { 
+		font-family: "Rokkitt", serif;
+		font-size: 1.25rem;
+		margin-top: 1.25rem;
+		margin-bottom: 1.25rem;
+
+	  }
+	
+	article :global(h1) {
+		font-size: 2rem; 
+		font-weight: 700;
+  	}
+
+	article :global(h2) {
+		font-size: 1.8rem; 
+		font-weight: 600;
+  	}
+
+	article :global(h3) {
+		font-size: 1.5rem; 
+		font-weight: 500;
+  	}
+
+	article :global(h4) {
+		font-size: 1.3rem; 
+		font-weight: 600;
+		color: #7EA8BE; 
+  	}
+
+	article :global(h5) {
+		font-size: 1.3rem; 
+		font-weight: 400;
+  	}
+
+	article :global(h6) {
+		font-size: 1.2rem; 
+		font-weight: 500;
+		color: #7EA8BE; 
+  	}
+
+	  article :global(table, th, yd) { 
+		border: 1px solid #7EA8BE;
+	  }
+
+	  article :global(p) {
+		line-height: 2rem;
+	  }
+
+	  article :global(ul) {
+		list-style: disc inside;
+	  }
+
+	  article :global(ol) {
+		list-style: decimal;
+		padding: 24px;
+	  }
+
+	  article :global(li) {
+		font-family: 'Spectral', serif;
+		font-size: 1.25rem;
+		margin-bottom: 12px;
+	  }
+
+	  article :global(blockquote p) { 
+		font-family: 'Prompt', sans-serif;
+		border-left: 4px solid #7EA8BE;
+		padding-left: 8px;
+	  }
+
+	  article :global(img) { 
+		max-width: 600px;
+		border-radius: 2em;
+	  }
+
+</style>

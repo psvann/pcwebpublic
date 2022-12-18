@@ -1,0 +1,24 @@
+---
+import Logo from '../components/Logo.svelte';
+---
+<nav class="block sm:flex bg-white text-gray-600 w-full sm:px-8 py-2 flex-row">
+    <div class="w-full sm:w-3/4 mx-4 sm:mx-2 my-2 sm:my-4">
+        <div>
+            <Logo /> 
+        </div>    
+        <div class="w-0 h-0 sm:w-full sm:h-auto invisible sm:visible">
+            <p class="text-md">Personal blog for Pieter van Noordennen</p>
+            <p class="text-sm">Talks about #product #growth #tech #content #creativity #startups #artificalintelligence #machinelearning </p>
+        </div>
+    </div>
+    <div class="w-full sm:w-8 sm:h-auto mx-4 sm:mx-auto sm:float-right">
+        <div class="text-lg grid grid-cols-3 sm:grid-cols-1 my-4 sm:my-4 gap-4 sm:gap-0">
+            <div class="hover:text-carrot font-semibold font-sans"><a href="/">Home</a></div>
+            <div class="hover:text-carrot font-semibold font-sans"><a href="/posts">Posts</a></div>
+            <div class="hover:text-carrot font-semibold font-sans"><a href="/about">About</a></div>
+            </div>
+    </div>
+</nav>
+
+<style>
+</style>

@@ -1,0 +1,39 @@
+---
+import MainLayout from '../../layouts/MainLayout.astro';
+import * as aboutMe from './About.md'
+import FindMe from '../../components/FindMe.astro'
+---
+<MainLayout>
+	<title slot="title">Product.Codes | Product, Growth, Tech Content from Pieter van Noordennen</title>
+	<div slot="leaderboard">
+		<img src="/images/pieter.jpg" class="inline-flex rounded-md float-left m-12 w-64 h-auto" >
+		<h1 class="text-4xl">Who Am I?</h1>
+		<p class="text-lg m-4 w-full">{aboutMe.frontmatter.description}</p>
+	</div>
+	
+	<article slot="centerwell">
+		<aboutMe.Content />
+	</article>
+
+	<div slot="rightrail">
+		<FindMe />	
+	</div> 
+
+</MainLayout>
+
+<style>
+	article :global(h3) { 
+		font-size: 2rem;
+	}
+
+	article :global(ol) { 
+		list-style: decimal;
+		line-height: 1.5rem;
+	}
+
+	article :global(li) {
+		margin: 8px 12px 12px 8px;
+	}
+
+
+</style>
